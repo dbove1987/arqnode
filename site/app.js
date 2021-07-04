@@ -9,7 +9,7 @@ window.onload = function () {
     var closeBtn = document.getElementById("close");
   
     // Cria um novo socket.
-    var socket = new WebSocket("ws://localhost:3000");
+    var socket = new WebSocket("ws://localhost:8080");
     // var socket = new WebSocket("wss:echo.websocket.org");
   
   

@@ -30,6 +30,6 @@ wss.on("connection", (ws) => {
 });
 
 //Inicia o servidor
-server.listen(process.env.PORT || 3000, () => {
+server.listen(process.env.PORT || 8080, () => {
   console.log("Servidor conectado na porta:", server.address().port);
 });
